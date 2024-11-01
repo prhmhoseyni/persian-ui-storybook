@@ -1,0 +1,1588 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+*, ::before, ::after{
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop{
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+/*
+! tailwindcss v3.4.14 | MIT License | https://tailwindcss.com
+*/
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4;
+  /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* 4 */
+  font-feature-settings: normal;
+  /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
+  -webkit-tap-highlight-color: transparent;
+  /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  border-top-width: 1px;
+  /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* 1 */
+  font-feature-settings: normal;
+  /* 2 */
+  font-variation-settings: normal;
+  /* 3 */
+  font-size: 1em;
+  /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0;
+  /* 1 */
+  border-color: inherit;
+  /* 2 */
+  border-collapse: collapse;
+  /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  font-weight: inherit;
+  /* 1 */
+  line-height: inherit;
+  /* 1 */
+  letter-spacing: inherit;
+  /* 1 */
+  color: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  padding: 0;
+  /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button;
+  /* 1 */
+  background-color: transparent;
+  /* 2 */
+  background-image: none;
+  /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  /* 1 */
+  vertical-align: middle;
+  /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+
+:root{
+  color-scheme: light;
+  --persian-ui-bg-body: 245, 245, 245;
+  --persian-ui-bg-paper: 255, 255, 255;
+  --persian-ui-bg-dialog: 255, 255, 255;
+  --persian-ui-bg-inverse: 0, 0, 0;
+  --persian-ui-text-primary: 12, 14, 16;
+  --persian-ui-text-secondary: 102, 117, 133;
+  --persian-ui-text-hint: 154, 166, 177;
+  --persian-ui-text-disabled: 154, 166, 177;
+  --persian-ui-text-inverse: 246, 247, 248;
+  --persian-ui-text-white: 255, 255, 255;
+  --persian-ui-text-link: 32, 156, 215;
+  --persian-ui-brand: 62, 136, 193;
+  --persian-ui-info: 45, 144, 210;
+  --persian-ui-success: 21, 151, 84;
+  --persian-ui-warning: 208, 124, 6;
+  --persian-ui-danger: 197, 50, 17;
+  --persian-ui-grey: 39, 41, 55;
+  --persian-ui-border-alpha: 14%;
+  --persian-ui-color-mix-text: #000000 35%;
+  --persian-ui-color-mix-hover: #000000 10%;
+  --persian-ui-color-mix-active: #000000 15%;
+  --persian-ui-color-mix-light: #FFFFFF 90%;
+  --persian-ui-color-mix-light-hover: #FFFFFF 85%;
+  --persian-ui-color-mix-light-active: #FFFFFF 80%;
+  --persian-ui-color-mix-grey: #FFFFFF;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgb(var(--persian-ui-bg-body));
+  color: rgb(var(--persian-ui-text-primary));
+}
+
+.btn{
+  display: inline-flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25rem;
+  border-radius: 0.5rem;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition: all ease-in-out 0.3s;
+}
+
+.btn:not(.btn-xs, .btn-sm, .btn-lg, .btn-xl){
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  height: 2.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.btn.btn-xs{
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  height: 2rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.btn.btn-sm{
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.21875rem;
+  height: 2.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.btn.btn-lg{
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.21875rem;
+  height: 2.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn.btn-xl{
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.3125rem;
+  height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn.btn-square{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+.btn.btn-square:not(.btn-square.btn-xs, .btn-square.btn-sm, .btn-square.btn-lg, .btn-square.btn-xl){
+  height: 2.5rem;
+  min-height: 2.5rem;
+  width: 2.5rem;
+  min-width: 2.5rem;
+}
+
+.btn.btn-square.btn-xs{
+  height: 2rem;
+  min-height: 2rem;
+  width: 2rem;
+  min-width: 2rem;
+}
+
+.btn.btn-square.btn-sm{
+  height: 2.25rem;
+  min-height: 2.25rem;
+  width: 2.25rem;
+  min-width: 2.25rem;
+}
+
+.btn.btn-square.btn-lg{
+  height: 2.75rem;
+  min-height: 2.75rem;
+  width: 2.75rem;
+  min-width: 2.75rem;
+}
+
+.btn.btn-square.btn-xl{
+  height: 3rem;
+  min-height: 3rem;
+  width: 3rem;
+  min-width: 3rem;
+}
+
+.btn.btn-rounded-full{
+  border-radius: 9999px;
+}
+
+.btn.btn-brand{
+  background-color: rgb(var(--persian-ui-brand));
+  color: rgb(var(--persian-ui-text-inverse));
+}
+
+.btn.btn-brand:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-hover));
+}
+
+.btn.btn-brand:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-brand), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-brand.btn-tinted{
+  color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-text));
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-light));
+}
+
+.btn.btn-brand.btn-tinted:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-light-hover));
+}
+
+.btn.btn-brand.btn-tinted:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-brand), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-brand.btn-outlined{
+  color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+  border: 1px solid rgb(var(--persian-ui-brand));
+}
+
+.btn.btn-brand.btn-outlined:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-light-hover));
+}
+
+.btn.btn-brand.btn-outlined:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-brand), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-brand.btn-text{
+  color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+}
+
+.btn.btn-brand.btn-text:hover{
+  background-color: transparent;
+}
+
+.btn.btn-brand.btn-text:active{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.btn.btn-info{
+  background-color: rgb(var(--persian-ui-info));
+  color: rgb(var(--persian-ui-text-inverse));
+}
+
+.btn.btn-info:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-hover));
+}
+
+.btn.btn-info:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-info), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-info.btn-tinted{
+  color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-text));
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-light));
+}
+
+.btn.btn-info.btn-tinted:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-light-hover));
+}
+
+.btn.btn-info.btn-tinted:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-info), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-info.btn-outlined{
+  color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+  border: 1px solid rgb(var(--persian-ui-info));
+}
+
+.btn.btn-info.btn-outlined:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-light-hover));
+}
+
+.btn.btn-info.btn-outlined:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-info), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-info.btn-text{
+  color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+}
+
+.btn.btn-info.btn-text:hover{
+  background-color: transparent;
+}
+
+.btn.btn-info.btn-text:active{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.btn.btn-success{
+  background-color: rgb(var(--persian-ui-success));
+  color: rgb(var(--persian-ui-text-inverse));
+}
+
+.btn.btn-success:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-hover));
+}
+
+.btn.btn-success:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-success), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-success.btn-tinted{
+  color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-text));
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-light));
+}
+
+.btn.btn-success.btn-tinted:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-light-hover));
+}
+
+.btn.btn-success.btn-tinted:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-success), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-success.btn-outlined{
+  color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+  border: 1px solid rgb(var(--persian-ui-success));
+}
+
+.btn.btn-success.btn-outlined:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-light-hover));
+}
+
+.btn.btn-success.btn-outlined:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-success), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-success.btn-text{
+  color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+}
+
+.btn.btn-success.btn-text:hover{
+  background-color: transparent;
+}
+
+.btn.btn-success.btn-text:active{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.btn.btn-warning{
+  background-color: rgb(var(--persian-ui-warning));
+  color: rgb(var(--persian-ui-text-inverse));
+}
+
+.btn.btn-warning:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-hover));
+}
+
+.btn.btn-warning:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-warning), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-warning.btn-tinted{
+  color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-text));
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-light));
+}
+
+.btn.btn-warning.btn-tinted:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-light-hover));
+}
+
+.btn.btn-warning.btn-tinted:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-warning), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-warning.btn-outlined{
+  color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+  border: 1px solid rgb(var(--persian-ui-warning));
+}
+
+.btn.btn-warning.btn-outlined:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-light-hover));
+}
+
+.btn.btn-warning.btn-outlined:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-warning), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-warning.btn-text{
+  color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+}
+
+.btn.btn-warning.btn-text:hover{
+  background-color: transparent;
+}
+
+.btn.btn-warning.btn-text:active{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.btn.btn-danger{
+  background-color: rgb(var(--persian-ui-danger));
+  color: rgb(var(--persian-ui-text-inverse));
+}
+
+.btn.btn-danger:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-hover));
+}
+
+.btn.btn-danger:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-danger), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-danger.btn-tinted{
+  color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-text));
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-light));
+}
+
+.btn.btn-danger.btn-tinted:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-light-hover));
+}
+
+.btn.btn-danger.btn-tinted:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-danger), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-danger.btn-outlined{
+  color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+  border: 1px solid rgb(var(--persian-ui-danger));
+}
+
+.btn.btn-danger.btn-outlined:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-light-hover));
+}
+
+.btn.btn-danger.btn-outlined:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-danger), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-danger.btn-text{
+  color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+}
+
+.btn.btn-danger.btn-text:hover{
+  background-color: transparent;
+}
+
+.btn.btn-danger.btn-text:active{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.btn.btn-grey{
+  background-color: rgb(var(--persian-ui-grey));
+  color: rgb(var(--persian-ui-text-inverse));
+}
+
+.btn.btn-grey:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-hover));
+}
+
+.btn.btn-grey:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-grey), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-grey.btn-tinted{
+  color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-text));
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-light));
+}
+
+.btn.btn-grey.btn-tinted:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-light-hover));
+}
+
+.btn.btn-grey.btn-tinted:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-grey), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-grey.btn-outlined{
+  color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+  border: 1px solid rgb(var(--persian-ui-grey));
+}
+
+.btn.btn-grey.btn-outlined:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-light-hover));
+}
+
+.btn.btn-grey.btn-outlined:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-grey), var(--persian-ui-border-alpha));
+}
+
+.btn.btn-grey.btn-text{
+  color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+}
+
+.btn.btn-grey.btn-text:hover{
+  background-color: transparent;
+}
+
+.btn.btn-grey.btn-text:active{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.btn:disabled,
+.btn:hover:disabled,
+.btn:active:disabled{
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.btn > .adornment{
+  position: relative;
+}
+
+.btn > .adornment.adornment-start{
+  left: 0.25rem;
+}
+
+.btn > .adornment.adornment-end{
+  right: 0.25rem;
+}
+
+.chip{
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  display: inline-flex;
+  height: 2rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25rem;
+  border-radius: 9999px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition: all ease-in-out 0.3s;
+}
+
+.chip.chip-brand{
+  color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-text));
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-light));
+}
+
+.chip.chip-brand:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-light-hover));
+}
+
+.chip.chip-brand:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-brand), var(--persian-ui-border-alpha));
+}
+
+.chip.chip-brand.chip-outlined{
+  color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+  border: 1px solid rgb(var(--persian-ui-brand));
+}
+
+.chip.chip-brand.chip-outlined:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-light-hover));
+}
+
+.chip.chip-brand.chip-outlined:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-brand), var(--persian-ui-border-alpha));
+}
+
+.chip.chip-info{
+  color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-text));
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-light));
+}
+
+.chip.chip-info:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-light-hover));
+}
+
+.chip.chip-info:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-info), var(--persian-ui-border-alpha));
+}
+
+.chip.chip-info.chip-outlined{
+  color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+  border: 1px solid rgb(var(--persian-ui-info));
+}
+
+.chip.chip-info.chip-outlined:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-light-hover));
+}
+
+.chip.chip-info.chip-outlined:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-info), var(--persian-ui-border-alpha));
+}
+
+.chip.chip-success{
+  color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-text));
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-light));
+}
+
+.chip.chip-success:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-light-hover));
+}
+
+.chip.chip-success:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-success), var(--persian-ui-border-alpha));
+}
+
+.chip.chip-success.chip-outlined{
+  color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+  border: 1px solid rgb(var(--persian-ui-success));
+}
+
+.chip.chip-success.chip-outlined:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-light-hover));
+}
+
+.chip.chip-success.chip-outlined:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-success), var(--persian-ui-border-alpha));
+}
+
+.chip.chip-warning{
+  color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-text));
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-light));
+}
+
+.chip.chip-warning:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-light-hover));
+}
+
+.chip.chip-warning:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-warning), var(--persian-ui-border-alpha));
+}
+
+.chip.chip-warning.chip-outlined{
+  color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+  border: 1px solid rgb(var(--persian-ui-warning));
+}
+
+.chip.chip-warning.chip-outlined:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-light-hover));
+}
+
+.chip.chip-warning.chip-outlined:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-warning), var(--persian-ui-border-alpha));
+}
+
+.chip.chip-danger{
+  color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-text));
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-light));
+}
+
+.chip.chip-danger:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-light-hover));
+}
+
+.chip.chip-danger:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-danger), var(--persian-ui-border-alpha));
+}
+
+.chip.chip-danger.chip-outlined{
+  color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+  border: 1px solid rgb(var(--persian-ui-danger));
+}
+
+.chip.chip-danger.chip-outlined:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-light-hover));
+}
+
+.chip.chip-danger.chip-outlined:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-danger), var(--persian-ui-border-alpha));
+}
+
+.chip.chip-grey{
+  color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-text));
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-light));
+}
+
+.chip.chip-grey:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-light-hover));
+}
+
+.chip.chip-grey:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-grey), var(--persian-ui-border-alpha));
+}
+
+.chip.chip-grey.chip-outlined{
+  color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-text));
+  background-color: transparent;
+  border: 1px solid rgb(var(--persian-ui-grey));
+}
+
+.chip.chip-grey.chip-outlined:hover{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-light-hover));
+}
+
+.chip.chip-grey.chip-outlined:active{
+  background-color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-light-active));
+  box-shadow: 0px 0px 0px 1px rgb(var(--persian-ui-bg-paper)), 0px 0px 0px 4px rgb(var(--persian-ui-grey), var(--persian-ui-border-alpha));
+}
+
+.chip[aria-disabled=true],
+.chip[aria-disabled=true]:hover,
+.chip[aria-disabled=true]:active,
+.chip:disabled,
+.chip:hover:disabled,
+.chip:active:disabled{
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.chip > .adornment{
+  position: relative;
+}
+
+.chip > .adornment.adornment-start{
+  left: 0.25rem;
+}
+
+.chip > .adornment.adornment-end{
+  right: 0.25rem;
+}
+
+.text-heading1{
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 3.375rem;
+}
+
+@media (min-width: 768px){
+  .text-heading1{
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+  }
+
+  .text-heading2{
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+  }
+
+  .text-heading3{
+    font-size: 1.75rem;
+    line-height: 2.625rem;
+  }
+
+  .text-heading4{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+
+  .text-heading5{
+    font-size: 1.125rem;
+    line-height: 27px;
+  }
+}
+
+@media (min-width: 1024px){
+  .text-heading1{
+    font-size: 2.625rem;
+    line-height: 3.9375rem;
+  }
+
+  .text-heading2{
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+  }
+
+  .text-heading3{
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .text-heading4{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+
+  .text-heading5{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.text-heading2{
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.text-heading3{
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.text-heading4{
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-heading5{
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-subtitle1{
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.6875rem;
+}
+
+.text-subtitle2{
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.text-subtitle3{
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.3125rem;
+}
+
+.text-subtitle4{
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.21875rem;
+}
+
+.text-subtitle5{
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+}
+
+.text-subtitle6{
+  font-size: 0.625rem;
+  font-weight: 500;
+  line-height: 0.9375rem;
+}
+
+.text-paragraph1{
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.text-paragraph2{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+.text-paragraph3{
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.text-paragraph4{
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+}
+
+.text-paragraph5{
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+.text-label1{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
+.text-label2{
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.225rem;
+}
+
+.text-label3{
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.1375rem;
+}
+
+.text-label4{
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.05rem;
+}
+
+.text-caption1{
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+.text-caption2{
+  font-size: 0.6875rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+}
+
+.static{
+  position: static;
+}
+
+.border{
+  border-width: 1px;
+}
+
+.text-brand{
+  color: color-mix(in srgb, rgb(var(--persian-ui-brand)), var(--persian-ui-color-mix-text));
+}
+
+.text-danger{
+  color: color-mix(in srgb, rgb(var(--persian-ui-danger)), var(--persian-ui-color-mix-text));
+}
+
+.text-disabled{
+  color: rgb(var(--persian-ui-text-disabled));
+}
+
+.text-grey{
+  color: color-mix(in srgb, rgb(var(--persian-ui-grey)), var(--persian-ui-color-mix-text));
+}
+
+.text-hint{
+  color: rgb(var(--persian-ui-text-hint));
+}
+
+.text-info{
+  color: color-mix(in srgb, rgb(var(--persian-ui-info)), var(--persian-ui-color-mix-text));
+}
+
+.text-inverse{
+  color: rgb(var(--persian-ui-text-inverse));
+}
+
+.text-link{
+  color: rgb(var(--persian-ui-text-link));
+}
+
+.text-primary{
+  color: rgb(var(--persian-ui-text-primary));
+}
+
+.text-secondary{
+  color: rgb(var(--persian-ui-text-secondary));
+}
+
+.text-success{
+  color: color-mix(in srgb, rgb(var(--persian-ui-success)), var(--persian-ui-color-mix-text));
+}
+
+.text-warning{
+  color: color-mix(in srgb, rgb(var(--persian-ui-warning)), var(--persian-ui-color-mix-text));
+}
+
+.text-white{
+  color: rgb(var(--persian-ui-text-white));
+}
+
+.outline{
+  outline-style: solid;
+}
+
+.drop-shadow{
+  --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.filter{
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.transition{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+* {
+  font-family: "Vazirmatn", serif;
+}
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+} */
