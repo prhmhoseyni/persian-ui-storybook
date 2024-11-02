@@ -22,13 +22,14 @@ export interface ButtonProps {
   variant: keyof typeof ButtonVariant;
   startAdornment?: boolean;
   endAdornment?: boolean;
+  roundedFull?: boolean;
 }
 
-export const Button = ({ label, color, variant, startAdornment, endAdornment }: ButtonProps) => {
+export const Button = ({ label, color, variant, startAdornment, endAdornment, roundedFull }: ButtonProps) => {
   return (
     html`
     <div
-      class=${["btn", `${ButtonVariant[variant]}`, `${ButtonColor[color]}`].filter(Boolean).join(" ")}
+      class=${["btn", `${ButtonVariant[variant]}`, `${ButtonColor[color]}`, `${roundedFull ? "btn-rounded-full" : ""}`].filter(Boolean).join(" ")}
     >
      ${endAdornment
         ? html`
@@ -37,9 +38,7 @@ export const Button = ({ label, color, variant, startAdornment, endAdornment }: 
           </svg>`
         : null
       }
-      
       ${label}
-
       ${startAdornment
         ? html`
           <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#B4B4B9" class="adornment adornment-start">

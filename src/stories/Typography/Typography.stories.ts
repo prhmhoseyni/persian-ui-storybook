@@ -26,6 +26,6 @@ type Story = StoryObj<TypographyProps>;
 export const Primary: Story = {
   args: {
     variant: "heading1",
-    label: "سلام، ممنون که به من توجه میکنی",
+    label: "سلام، این یک متن نمونه است",
   },
 };
